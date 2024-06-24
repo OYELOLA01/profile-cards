@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(26, 161, 173);
+    background-image: url(bg-pattern-top.svg);
+    height: 100vh;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.img{
+    text-align: center;
+}
+.image{
+    width: 105px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 1;
+    margin-top: -60px;
+}
+p{
+    color:  rgb(104, 107, 115);
+}
